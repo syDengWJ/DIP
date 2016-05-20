@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'Thresholding1'
+				'Thresholding1.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}

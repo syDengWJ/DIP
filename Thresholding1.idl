@@ -1,0 +1,17 @@
+// Thresholding1.idl : Thresholding1 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(Thresholding1.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(8F94BAC6-87B4-4A64-A010-555B824D6F2C),
+	version(1.0)	
+]
+library Thresholding1Lib
+{
+	importlib("stdole2.tlb");
+};
